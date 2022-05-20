@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100% ;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+/*Navigation */
+
+.nav-container {
+    Height: 72px;
+    
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    width: 812px;
+    height: 53px;
+    left: -70px;
+    top: 44px;
+    
+
+}
+
+nav .logo {
+    font-family: "Segoe Print";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 88px;
+
+    color: #000000;
+
+    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    position:relative;
+    width: 88px;
+    height: 92px;
+    left: 1420px;
+    top: 25px;
+    
+    
+     
+}
+
+.nav-items li {
+    list-style: none;
+    margin-left: 100px ;
+    
+}
+
+
+.nav-items li a{
+    color: #000000;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 51px;
+    text-decoration: none;
+    width: 812px;
+    height: 53px;
+    left: -15px;
+    top: 65px;
+    transition: 300ms;
+
+}
+ .nav-items :hover {
+     transform: translateY(-2px);
+     
+ }
+/* Header */
+
+header h1 {
+    position: absolute;
+    width: 596px;
+    height: 128px;
+    left: 706px;
+    top: 542px;
+    
+    font-family: Segoe Script;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 128px;
+    
+    color: #000000;
+    
+
+}
+
+header p {
+    position: absolute;
+    width: 486px;
+    height: 53px;
+    left: 746px;
+    top: 670px;
+    
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    
+    color: #000000;
+
+}
+
+header .hero-image {
+    
+    position: absolute;
+    width: 636px;
+    height: 833px;
+    left: 150px;
+    top: 275px;
+    
+}
+
+/* background */
+
+#bg-1 {
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 2px;  
+}
+#bg-2 {
+    position: absolute;
+    width: 100%;
+    height: 312px;
+    left: 0px;
+    top: 2px; 
+}
+#bg-3 {
+    position: absolute;
+    width: 100%;
+    height: 1341.85px;
+    left: 0px;
+    top: 219px;
+      
+}
+#bg-4 {
+    position: absolute;
+    width: 100%;
+    height: 399px;
+    left: 0px;
+    top: 848px;
+}
+#bg-5 {
+    position: absolute;
+    width: 100%;
+    height: 2080px;
+    left: 0px;
+    top: 1200px;
+}
+#bg-6 {
+    position: absolute;
+    width: 100%;
+    height: 1019.89px;
+    left: 0px;
+    top: 2173px;
+    
+}
+
+/* Content */
+header h2 {
+    position: absolute;
+    width: 516px;
+    height: 106px;
+    left: 462px;
+    top: 1194px;
+    
+
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 106px;
+    
+    color: #FFFFFF;
+}
+header h3 {
+    position: absolute;
+    width: 682px;
+    height: 96.01px;
+    left: 385px;
+    top: 2694.72px;
+    
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 106px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+header h4 {
+    position: absolute;
+    width: 766px;
+    height: 54.35px;
+    left: 337px;
+    top: 2815.19px;
+    
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+header h5 {
+    position: absolute;
+    width: 319px;
+    height: 24.46px;
+    left: 18px;
+    top: 3227px;
+    
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/* Works */
+
+#Rectangle-1 {
+    position: absolute;
+    width: 379px;
+    height: 488px;
+    left: 106px;
+    top: 1414px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#Rectangle-2 {
+    position: absolute;
+    width: 379px;
+    height: 488px;
+    left: 530px;
+    top: 1414px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+#Rectangle-3 {
+    position: absolute;
+    width: 379px;
+    height: 488px;
+    left: 954px;
+    top: 1414px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+}
